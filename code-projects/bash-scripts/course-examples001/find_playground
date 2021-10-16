@@ -1,0 +1,12 @@
+find ~/Projects/Playground \
+	\( \
+		-type f \
+		-not -perm 0600 \
+		-exec chmod 0600 '{}' ';' \
+	\) \
+	-or \
+	\( \
+		-type d \
+		-not -perm -0600 \
+		-exec chmod 0600 '{}' ';' \
+	\) \
