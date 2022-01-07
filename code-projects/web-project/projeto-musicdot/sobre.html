@@ -2,6 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
         <title>
             MusicDot | Sobre a empresa    
         </title>
@@ -81,31 +82,44 @@
         </ul>
 
         <h2 class="titulo"> Contato </h2>
+        
+        <div class="contato__secao">
+            <h3 class="contato__subtutulo"> Correspondencia </h3>
+            <small> (todos os dias, das 9h as 18h) </small>
 
-        <h3> Correspondencia </h3>
-        <small> (todos os dias, das 9h as 18h) </small>
+            <adress class="contato__info">
+                <br>
+                AOVS Sistemas de Informatica S.A
+                <br>
+                Rua Vergueiro, 3185, 8 Andar
+                <br>
+                Vila Mariana
+                <br>
+                Sao Paulo - SP
+            </adress>
+        </div>
+        
+        <div id="contato" class="contato__secao contato__secao--telefone">
+            <h3 class="contato__subtitulo"> Telefones </h3>
+            <small> (segunda a sexta, das 9h as 18h) </small>
 
-        <adress>
-            <br>
-            AOVS Sistemas de Informatica S.A
-            <br>
-            Rua Vergueiro, 3185, 8 Andar
-            <br>
-            Vila Mariana
-            <br>
-            Sao Paulo - SP
-        </adress>
+            <dl class="contato__info">
+                <div>
+                    <dt class="contato__info-titulo"> Pessoa Fisica: </dt>
+                    <dd class="contato__info-descricao"> <a href="tel://114118-3319"> (11) 4118-3319 </a> </dd>
+                </div>
 
-        <h3> Telefones </h3>
-        <small> (segunda a sexta, das 9h as 18h) </small>
+                <div>
+                    <dt class="contato__info-titulo"> Pessoa Juridica </dt>
+                    <dd class="contato__info-descricao"> <a href="tel://114118-2172"> (11) 4118-2172 </a> </dd>
+                </div>
+            </dl>
+        </div>
 
-        <dl>
-            <dt> Pessoa Fisica: </dt>
-            <dd> <a href="tel://114118-3319"> (11) 4118-3319 </a> </dd>
-
-            <dt> Pessoa Juridica </dt>
-            <dd> <a href="tel://114118-2172"> (11) 4118-2172 </a> </dd>
-        </dl>
+        <footer class="rodape">
+            <img src="img/logo.svg" alt="Logo da musicdot" class="rodape__logo">
+            <p class="rodape__copyright"> &copy; Copyright MusicDot</p>
+        </footer>
 
     </body>
 </html>
